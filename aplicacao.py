@@ -10,4 +10,5 @@ def nordestina():
 @app.route("/sul")
 def sulista():
     return render_template("/html/sulista.html")
+
 app.run(debug=True)
